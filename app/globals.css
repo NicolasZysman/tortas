@@ -13,6 +13,9 @@
 body {
   font-family: Inter;
 }
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
 
 /* @layer components {
   .btn_white { 

@@ -22,7 +22,7 @@ const Card = ({name, title, img, border}: CardProps) => {
             <p className="text-[20px] font-[700] text-white truncate">{title}</p>
         </div>
         <div className='flex justify-between'>
-          <Image src={img} alt="close" width={80} height={24} className=' rounded-md ' />
+          <Image src={img} alt="close" width={90} height={24} className=' rounded-md ' />
           <button className=' rounded-full hover:mb-[2px]'>
             <Image src="/heart(2).png" alt="close" width={14} height={14} className=' hover:cursor-pointer' />
           </button>

@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className=" bg-black">
+      <body className=" bg-black scrollbar-hide">
         <Navbar/>
         <main className="relative overflow-hidden">
           {children}
